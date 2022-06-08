@@ -1,0 +1,131 @@
+.news__newspage {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0px auto;
+  flex:1;
+  min-height: 100vh;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: var(--color-primary); */
+  padding: 1.5rem 4rem 8rem;
+}
+
+@media screen and (max-width: 700px) {
+  .news__newspage {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .news__newspage {
+    padding: 2rem;
+  }
+}
+
+.news__newspage-heading {
+  color: var(--color-primary);
+}
+@media screen and (max-width: 700px) {
+  .news__newspage-heading {
+    color: var(--color-primary);
+    text-align: center;
+  }
+}
+.section_divider {
+  background-color: var(--color-divider);
+  height: 1px;
+  margin: 18px 0px;
+  width: 100%;
+}
+
+.news__newspage__article {
+  padding-top: 18px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+  /* align-self: flex-start; */
+}
+.news_newspage__article-section {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 39px;
+}
+
+.news__newspage__article-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1107px) {
+  .news__newspage__article-pagination {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .news__newspage__article-pagination {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .news__newspage__article-pagination {
+    justify-content: center;
+  }
+}
+
+.pagebar {
+  width: 24px;
+  height: 24px;
+  left: 1159px;
+  top: 904px;
+  margin-right: 12px;
+  background: #e5e5e5;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.news__pagination-container {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pagenext {
+  margin: 0px 9px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.pagination__link {
+  background-color: var(--color-primary);
+  color: #fff;
+  font-size: 14px;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+}
+
+.greyed{
+    color: #C4C4C4;
+}
+.black{
+    color: #000;
+}
